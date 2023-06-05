@@ -31,7 +31,7 @@ I'm currently working on a project that involves advanced visualization techniqu
 
 ## Resume
 
-You can find my updated resume [here](/Technical%20resume%20V1.pdf).
+You can find my updated resume [here](https://github.com/manish-cr/pics/blob/main/Technical%20resume%20V1.pdf).
 
 ## Contact Information
 
