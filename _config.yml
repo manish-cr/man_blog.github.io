@@ -1,0 +1,199 @@
+# The Site Configuration
+
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: ""
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: en
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Singapore
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: Manish's Website # the main title
+
+tagline: A site for my documentations # it will display as the sub-title
+
+description: >- # used by seo meta and the atom feed
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: "https://man_blog.github.io"
+
+github:
+  username: manish-cr # change to your github username
+
+twitter:
+  username: ManishSeal3 # change to your twitter username
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: Manish Seal
+  email: manis.seal@gmail.com # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/ManishSeal3 # change to your twitter homepage
+    - https://github.com/manis-cr # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
+
+google_site_verification: # fill in to your verification string
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+google_analytics:
+  id: # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path: # the local PV cache data, friendly to visitors from GFW region
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
+#
+theme_mode: # [light|dark]
+
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+img_cdn:
+
+# the avatar on sidebar, support local or CORS resources
+avatar: data:image/jpeg;base64,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
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+comments:
+  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The active options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping: # optional, default to 'pathname'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development|production]
+
+pwa:
+  enabled: true # the option for PWA feature
+
+paginate: 10
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - rollup.config.js
+  - node_modules
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
